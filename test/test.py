@@ -1,5 +1,18 @@
 #!/usr/bin/python3
-s =[1,2,3,4,5,6,7]
-a = (s for s in s)
-#a=tuple(a)
-print(a)
+import sys
+# def factorial(n):
+#     try :
+#         if n<0 or type(n)!=int:
+#             raise ValueError
+#         else :
+#             return factorial(n-1)*n
+#     except ValueError:
+#         print("value error")
+
+# print(factorial(5))
+try:
+    sys.exit(1)
+    print("try")
+    
+finally:
+    print("finally")
