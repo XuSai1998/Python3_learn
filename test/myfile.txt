@@ -1,0 +1,20 @@
+test_add (test_mathfunc.TestMathFunc)
+Test method add(a, b) ... ok
+test_minus (test_mathfunc.TestMathFunc)
+Test method minus(a, b) ... ok
+test_divide (test_mathfunc.TestMathFunc)
+Test method divide(a, b) ... FAIL
+
+======================================================================
+FAIL: test_divide (test_mathfunc.TestMathFunc)
+Test method divide(a, b)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/xusai/python3学习/test/test_mathfunc.py", line 30, in test_divide
+    self.assertEqual(2.5, divide(5, 2))
+AssertionError: 2.5 != 2
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+FAILED (failures=1)
